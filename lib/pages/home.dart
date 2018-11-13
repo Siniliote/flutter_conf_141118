@@ -11,7 +11,10 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text(title)),
+      //@TODO: 9- Specifying assets
+      //@see: https://flutter.io/docs/development/ui/assets-and-images
       body: Center(child: Text('My Page!')),
+      //@TODO: 8- Move Drawer in Widget
       drawer: Drawer(
         child: ListView(
           padding: EdgeInsets.zero,

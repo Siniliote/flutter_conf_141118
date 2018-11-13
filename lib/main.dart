@@ -9,6 +9,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      //@TODO: 7- Add Navigation
+      //@see: https://flutter.io/docs/cookbook/navigation/named-routes
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
