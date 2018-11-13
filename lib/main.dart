@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'pages/listing.dart';
+import 'pages/home.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
-      home: MyListingPage(title: 'Abbeal Meetup #2018'),
+      home: MyHomePage(title: 'Abbeal Meetup #2018'),
     );
   }
 }
