@@ -10,11 +10,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        //@TODO: 2- Change color to Colors.red
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.red,
       ),
-      //@TODO: 1- Change title "Abbeal Meetup #2018"
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: 'Abbeal Meetup #2018'),
     );
   }
 }
