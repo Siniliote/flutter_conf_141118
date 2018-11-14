@@ -8,13 +8,13 @@ class MyDrawer extends StatelessWidget {
           padding: EdgeInsets.zero,
           children: <Widget>[
             DrawerHeader(
-              child: Text('Drawer Header'),
+              child: new Image.asset("images/Magic-the-gathering-logo.png"),
               decoration: BoxDecoration(
-                color: Colors.blue,
+                color: Colors.black,
               ),
             ),
             ListTile(
-              title: Text('Cards Screen'),
+              title: Text('Random Cards'),
               onTap: () {
                 Navigator.pushNamed(context, '/cards');
               },
